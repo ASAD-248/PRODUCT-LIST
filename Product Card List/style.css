@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: poppins-reg;
+    src: url(./assests/fonts/Poppins-Medium.ttf);
+}
+@font-face{
+    font-family: poppins-light;
+    src: url(./assests/fonts/Poppins-Light.ttf);
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    padding: 0px 10px;
+   
+}
+.cart{
+    display: flex;
+    margin: 28px;  
+    gap: 20PX;
+    
+    height: max-content;
+    width: max-content;
+}
+.cart .image-box{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+
+}
+.cart .image-box img{
+    height: 100%;   
+    width: 100%;
+}
+.content{
+   width: 70%;
+}
+.content .fir-para{
+    font-size: 16px;
+    font-family: poppins-reg;
+    /* margin-right: 15px; */
+    
+    width: 80%;
+}
+.cart .icon{
+    gap: 5px;
+    margin-top: 10px;
+   
+}
+.cart .icon p{
+    font-size: 14px;
+}
+.cart .icon span{
+    font-size: 14px;
+    color: rgb(0, 166, 255);
+    margin-left: 5px;
+    font-weight: bold;
+}
+.cart .icon i{
+    color: rgb(255, 183, 0);
+    font-size: 13px;
+}
+.cart .icon p{
+    font-family: poppins-reg;
+}
+.cart .icon .fa-caret-down {
+    color: black;
+    margin-left: 5px;
+}
+
+.last-txt{
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    align-items: baseline;
+}
+.last-txt h3{
+    text-align: center;
+    font-size: 1.80rem;
+   
+    align-items: center;
+    font-family: poppins-light;
+}
+.last-txt h3 sup{
+    font-size: 15px;
+}
+.last-txt span{
+    font-family: poppins-reg;
+    font-size: 13px;
+}
+.txt p{
+    font-family: poppins-reg;
+    font-size: 14px;
+}
+.txt .red-para{
+    color: rgb(214, 0, 0);
+}
